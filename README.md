@@ -8,45 +8,79 @@
 Marianneguan/Marianneguan is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-/******************************************************************
- * Program 1: Conversion from binary to decimal representation
- * Programmer: Marianne Kate G. Guan
- * 
- * Class: IT 121        Instructor: 
- *        
- * Pledge: I have neither given nor received unauthorized aid
- * on this program.     (signature on file)
- *
- * Description: This program converts a binary number to decimal.
- *
- * Input: Binary number
- *
- * Output: Decimal number
- *
- ******************************************************************/
 
-// Imported packages
-   import java.util.Scanner;
+// Jvdroid-main: User
+public class Main {
+	
+	private String userId;
+    private String password;
+    private String loginStatus;
+    private int registerDate;
+    	
+}
 
-    public class Binary
-   {
-   
-   // Main method
-       public static void main(String[] args)
-      {
-      	
-  Scanner sc = new Scanner(System.in);
-  long binaryNumber, decimalNumber = 0, j = 1, remainder;
-  System.out.print("Input a binary number: ");
-  binaryNumber = sc.nextLong();
+// Jvdroid-main: Costumer
+public class Main {
+	
+	private String costumerName;
+	private String address;
+	private String email;
+	private String creditCardInfo;
+	private String ShippingInfo;
+	private float accountBalance;	
+	
+}
 
-  while (binaryNumber != 0) 
-  {
-   remainder = binaryNumber % 10;
-   decimalNumber = decimalNumber + remainder * j;
-   j = j * 2;
-   binaryNumber = binaryNumber / 10;
-  }
-  System.out.println("Decimal Number: " + decimalNumber);
- }
+// Jvdroid-main: Administrator 
+public class Main {
+
+    private String adminName;
+    private String email;
+    
+    }
+
+// Jvdroid-main: Shopping Cart 
+public class Main {
+	
+	private int cardId;
+	private int productID;
+	private int quantity;
+	private int dateAdded;
+		
+}
+
+// Jvdroid-main: Order
+
+public class Main {
+
+		private int orderId;
+		private String dateCreated;
+		private String dateShipped;
+		private String costumerName;
+		private String costumerId;
+		private String status;
+		private String shippingId;
+	    	
+}
+
+// Jvdroid-main: Shipping Info
+public class Main {
+	
+	private int shippingId;
+	private String shippingType;
+	private int shippingCost;
+	private int shippingRegionId;
+		
+	
+}
+
+// Jvdroid-main: Order Details 
+public class Main {
+	
+	private int orderId;
+	private int productId;
+	private String productName;
+	private int quantity;
+	private float unitCost;
+	private float su}btotal;
 }
